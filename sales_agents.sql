@@ -1,0 +1,1 @@
+select Employee.FirstName, Employee.LastName from Employee where Employee.Title = 'Sales Support Agent';

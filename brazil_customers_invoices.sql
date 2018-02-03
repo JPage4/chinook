@@ -1,0 +1,1 @@
+select Invoice.BillingCountry, Invoice.InvoiceDate, Customer.FirstName, Customer.LastName from Invoice left join customer on invoice.CustomerId = Customer.CustomerId where Customer.Country = 'Brazil';
